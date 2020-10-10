@@ -1,0 +1,16 @@
+ class Program
+    {
+        static void Main(string[] args)
+        {
+            int number = 1;
+            int number2 = AddOneToNumber(number);
+            Console.Write("");
+            Console.WriteLine(number2);
+            
+        }
+        public static int AddOneToNumber(int number)
+        {
+            number += 1;
+
+            return number;
+        }
